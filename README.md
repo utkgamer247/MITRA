@@ -2,4 +2,4 @@
 Mutual Innovation for Trade, Resilience, and Advancement
 
 ## Description
-Website and video will be added soon.
+To check our live demo please click: https://utkgamer247.github.io/MITRA/
