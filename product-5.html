@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cold-Chain Logistics Service – Pharma | MITRA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+    <div>
+        <div class="logo">MITRA Portal</div>
+        <div class="subtitle">Product Detail – Logistics / Pharma Supply Chain</div>
+    </div>
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="product-list.html">Products</a>
+    </nav>
+</header>
+
+<div class="product-detail">
+    <a class="back-link" href="product-list.html">← Back to Product Catalogue</a>
+    <h2>Cold-Chain Logistics Service – Pharma (India ↔ Japan)</h2>
+    <div class="product-meta">
+        Supplier: Indo-Japan Cold Logistics Pvt Ltd | Category: Cold Chain / Pharma Logistics
+    </div>
+    <p>
+        End-to-end temperature-controlled logistics service for pharmaceutical and biotech shipments,
+        including customs handling, real-time monitoring and delivery confirmation.
+    </p>
+
+    <h3>Service Specifications</h3>
+    <table class="spec-table">
+        <tr><th>Parameter</th><th>Specification</th></tr>
+        <tr><td>Temperature Range</td><td>+2°C to +8°C, -20°C, and -80°C options</td></tr>
+        <tr><td>Modes</td><td>Air + Road, Sea + Road (reefer containers)</td></tr>
+        <tr><td>Coverage</td><td>Major pharma hubs in India and Japan (Mumbai, Hyderabad, Tokyo, Osaka, etc.)</td></tr>
+        <tr><td>Monitoring</td><td>IoT data loggers with real-time tracking and alerts</td></tr>
+        <tr><td>Packaging</td><td>Validated insulated shippers, gel packs, dry ice handling</td></tr>
+        <tr><td>Regulatory</td><td>GDP-compliant, customs brokerage support, cold storage at ports</td></tr>
+        <tr><td>Insurance</td><td>Cargo insurance options available</td></tr>
+        <tr><td>Typical Use Cases</td><td>Vaccines, APIs, biologics, clinical trial samples</td></tr>
+    </table>
+
+    <h3 style="margin-top:20px;">Request Cold-Chain Shipment</h3>
+
+    <form style="margin-top:10px;">
+        <div class="form-group">
+            <label>Shipper Organisation</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>Receiver Organisation</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>Contact Email</label>
+            <input type="email" required>
+        </div>
+
+        <div class="form-group">
+            <label>Pickup Location (Country / City)</label>
+            <input type="text" placeholder="e.g., Pune, India">
+        </div>
+
+        <div class="form-group">
+            <label>Delivery Location (Country / City)</label>
+            <input type="text" placeholder="e.g., Osaka, Japan">
+        </div>
+
+        <div class="form-group">
+            <label>Temperature Range Required</label>
+            <select>
+                <option>+2°C to +8°C</option>
+                <option>-20°C</option>
+                <option>-80°C</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Approx. Shipment Volume / Weight</label>
+            <input type="text" placeholder="e.g., 500 kg, 4 pallets">
+        </div>
+
+        <div class="form-group">
+            <label>Preferred Shipment Date Window</label>
+            <input type="text" placeholder="e.g., 10–20 Jan 2026">
+        </div>
+
+        <div class="form-group">
+            <label>Upload Shipment / Regulatory Docs (optional)</label>
+            <input type="file" multiple>
+        </div>
+
+        <button type="button" class="btn-primary">Submit Cold-Chain Request (Demo)</button>
+    </form>
+</div>
+</body>
+</html>

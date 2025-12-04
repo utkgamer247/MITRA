@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excise / Customs Registration – MITRA Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+    <div>
+        <div class="logo">MITRA Portal</div>
+        <div class="subtitle">Excise / Customs Officer Registration</div>
+    </div>
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="product-list.html">Products</a>
+    </nav>
+</header>
+
+<div class="form-wrapper">
+    <h2>Register as Excise / Customs Officer</h2>
+    <div class="form-subtitle">
+        Restricted validation access for customs, excise and trade facilitation officers (demo).
+    </div>
+
+    <form>
+        <div class="form-group">
+            <label>Role</label>
+            <select required>
+                <option value="">Select</option>
+                <option>Customs Officer</option>
+                <option>Excise / Indirect Tax Officer</option>
+                <option>Trade Facilitation / Single Window</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>Official Designation</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>Department / Ministry</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>Jurisdiction / Port / Region</label>
+            <input type="text" placeholder="e.g., ICD Tughlakabad, Mumbai Port, Yokohama Customs">
+        </div>
+
+        <div class="form-group">
+            <label>Official Email (Gov Domain)</label>
+            <input type="email" placeholder="*.gov.in / *.go.jp" required>
+        </div>
+
+        <div class="form-group">
+            <label>Official ID / Service ID</label>
+            <input type="text" required>
+            <label style="font-size:11px;color:#666;">Upload ID Card / Appointment Order</label>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+        </div>
+
+        <div class="form-group">
+            <label>Office Address</label>
+            <textarea required></textarea>
+        </div>
+
+        <button type="button" class="btn-primary">Submit Officer Registration (Demo)</button>
+    </form>
+</div>
+</body>
+</html>

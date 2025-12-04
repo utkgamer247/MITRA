@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Consultant Registration – MITRA Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+    <div>
+        <div class="logo">MITRA Portal</div>
+        <div class="subtitle">Consultant / Advisory Registration</div>
+    </div>
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="product-list.html">Products</a>
+    </nav>
+</header>
+
+<div class="form-wrapper">
+    <h2>Register as Consultant</h2>
+    <div class="form-subtitle">
+        Chartered Accountant, legal firm, customs/trade advisor, GST/export consultant.
+    </div>
+
+    <form>
+        <div class="form-group">
+            <label>Consultant Type</label>
+            <select required>
+                <option value="">Select</option>
+                <option>Chartered Accountant / CPA</option>
+                <option>Legal / Law Firm</option>
+                <option>Customs / Trade Compliance Advisor</option>
+                <option>Tax / GST Advisor</option>
+                <option>General Business Consultant</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Individual / Firm Name</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>Country</label>
+            <select required>
+                <option value="">Select</option>
+                <option>India</option>
+                <option>Japan</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Professional Registration Number</label>
+            <input type="text" placeholder="CA / Bar Council / CPA / Trade License No." required>
+            <label style="font-size:11px;color:#666;">Upload Registration / License Certificate</label>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+        </div>
+
+        <div class="form-group">
+            <label>Years of Experience</label>
+            <input type="number" min="0" placeholder="e.g., 5" required>
+        </div>
+
+        <div class="form-group">
+            <label>Expertise Areas</label>
+            <textarea placeholder="CEPA, customs, GST, contracts law, export documentation, etc." required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>Office Address</label>
+            <textarea required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>Contact Email</label>
+            <input type="email" required>
+        </div>
+
+        <div class="form-group">
+            <label>Mobile / Phone</label>
+            <input type="text" required>
+        </div>
+
+        <button type="button" class="btn-primary">Submit Consultant Registration (Demo)</button>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seller Registration – MITRA Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+    <div>
+        <div class="logo">MITRA Portal</div>
+        <div class="subtitle">Seller / Supplier Registration</div>
+    </div>
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="product-list.html">Products</a>
+    </nav>
+</header>
+
+<div class="form-wrapper">
+    <h2>Register as Seller / Supplier</h2>
+    <div class="form-subtitle">
+        MSME, startup, OEM, trader or service provider – demo form inspired by GeM seller onboarding.
+    </div>
+
+    <form>
+        <div class="form-group">
+            <label>Constitution of Business</label>
+            <select required>
+                <option value="">Select</option>
+                <option>Proprietorship</option>
+                <option>Partnership Firm</option>
+                <option>LLP</option>
+                <option>Private Limited Company</option>
+                <option>Public Limited Company</option>
+                <option>Startup (DPIIT)</option>
+                <option>Others</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Legal Entity Name (as per Registration Certificate)</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>Authorised Signatory Name</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>Authorised Signatory ID Type</label>
+            <select required>
+                <option value="">Select</option>
+                <option>Aadhaar (India)</option>
+                <option>Passport</option>
+                <option>National ID (Japan)</option>
+                <option>Other Govt ID</option>
+            </select>
+            <label style="font-size:11px;color:#666;">Upload ID (PDF / Image)</label>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+        </div>
+
+        <div class="form-group">
+            <label>Country of Registration</label>
+            <select required>
+                <option value="">Select</option>
+                <option>India</option>
+                <option>Japan</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Business Registration Number (CIN / Corporate No. / Reg No.)</label>
+            <input type="text" required>
+            <label style="font-size:11px;color:#666;">Upload Registration Certificate</label>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+        </div>
+
+        <div class="form-group">
+            <label>PAN / Tax ID</label>
+            <input type="text" required>
+            <label style="font-size:11px;color:#666;">Upload PAN / Tax ID document</label>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+        </div>
+
+        <div class="form-group">
+            <label>GST / Consumption Tax Registration (if applicable)</label>
+            <input type="text" placeholder="GSTIN (India) / Tax ID (Japan)">
+            <label style="font-size:11px;color:#666;">Upload GST / Tax Certificate</label>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+        </div>
+
+        <div class="form-group">
+            <label>MSME / Udyam / SME Registration (optional)</label>
+            <input type="text" placeholder="Udyam / SME ID">
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+        </div>
+
+        <div class="form-group">
+            <label>Registered Office Address</label>
+            <textarea required></textarea>
+            <label style="font-size:11px;color:#666;">Upload Address Proof (electricity bill / lease / tax receipt)</label>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+        </div>
+
+        <div class="form-group">
+            <label>Bank Account Details (for Payments)</label>
+            <input type="text" placeholder="Account Number" required>
+            <input type="text" placeholder="IFSC / SWIFT" required>
+            <input type="text" placeholder="Bank & Branch Name" required>
+            <label style="font-size:11px;color:#666;">Upload cancelled cheque / bank statement</label>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+        </div>
+
+        <div class="form-group">
+            <label>Primary Product / Service Categories</label>
+            <textarea placeholder="e.g., Solar PV modules, industrial robots, logistics, SaaS" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>Upload Product / Service Catalogue (optional)</label>
+            <input type="file" multiple accept=".pdf,.xlsx,.xls,.csv">
+        </div>
+
+        <div class="form-group">
+            <label>Latest ITR / Financial Statement (for credibility)</label>
+            <input type="file" accept=".pdf">
+        </div>
+
+        <button type="button" class="btn-primary">Submit Seller Registration (Demo)</button>
+    </form>
+</div>
+</body>
+</html>

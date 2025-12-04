@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buyer Registration – MITRA Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+    <div>
+        <div class="logo">MITRA Portal</div>
+        <div class="subtitle">Buyer Registration</div>
+    </div>
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="product-list.html">Products</a>
+    </nav>
+</header>
+
+<div class="form-wrapper">
+    <h2>Register as Buyer</h2>
+    <div class="form-subtitle">
+        Government department, PSU, local body or institutional buyer – demo form inspired by GeM.
+    </div>
+
+    <form>
+        <div class="form-group">
+            <label>Organisation Type</label>
+            <select required>
+                <option value="">Select</option>
+                <option>Central Govt Ministry / Dept</option>
+                <option>State Govt Dept</option>
+                <option>PSU / Autonomous Body</option>
+                <option>Educational Institution / University</option>
+                <option>Local Body / Urban / Rural</option>
+                <option>Other Govt Agency</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Organisation Legal Name (as per PAN / Registration)</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>Country</label>
+            <select required>
+                <option value="">Select</option>
+                <option>India</option>
+                <option>Japan</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Official Domain Email ID</label>
+            <input type="email" placeholder="name@organisation.gov.in / go.jp / ac.jp" required>
+        </div>
+
+        <div class="form-group">
+            <label>Primary User Name (Authorised Officer)</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>Designation</label>
+            <input type="text" placeholder="e.g., Executive Engineer, Purchase Officer" required>
+        </div>
+
+        <div class="form-group">
+            <label>Mobile Number (linked with ID)</label>
+            <input type="text" placeholder="+91 / +81 ..." required>
+        </div>
+
+        <div class="form-group">
+            <label>Government ID Type</label>
+            <select required>
+                <option value="">Select</option>
+                <option>Official Govt ID Card</option>
+                <option>Aadhaar (India)</option>
+                <option>MyNumber / National ID (Japan)</option>
+                <option>Other Govt Issued ID</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Upload Government ID (PDF / Image)</label>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+        </div>
+
+        <div class="form-group">
+            <label>Department / Organisation Address</label>
+            <textarea placeholder="Registered office / HQ address" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>Proof of Office Address</label>
+            <select>
+                <option>Electricity / Telephone Bill</option>
+                <option>Property Tax Receipt</option>
+                <option>Lease / Rent Agreement</option>
+                <option>Government Order / Notification</option>
+            </select>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+        </div>
+
+        <div class="form-group">
+            <label>Official Bank Account Details (for Payments)</label>
+            <input type="text" placeholder="Account Number">
+            <input type="text" placeholder="IFSC / SWIFT Code">
+            <input type="text" placeholder="Bank & Branch Name">
+            <label style="font-size:11px;color:#666;">Upload cancelled cheque / bank statement</label>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+        </div>
+
+        <div class="form-group">
+            <label>Planned Procurement Categories</label>
+            <textarea placeholder="e.g., ICT equipment, construction services, consulting, energy, logistics" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>Estimated Annual Procurement Value via Portal (₹ / ¥ / USD)</label>
+            <input type="text">
+        </div>
+
+        <button type="button" class="btn-primary">Submit Buyer Registration (Demo)</button>
+    </form>
+</div>
+</body>
+</html>

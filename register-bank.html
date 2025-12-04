@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank / Payment Partner Registration – MITRA Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+    <div>
+        <div class="logo">MITRA Portal</div>
+        <div class="subtitle">Bank / Payment Partner Registration</div>
+    </div>
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="product-list.html">Products</a>
+    </nav>
+</header>
+
+<div class="form-wrapper">
+    <h2>Register as Bank / Payment Partner</h2>
+    <div class="form-subtitle">
+        Escrow, multi-currency settlement, and payment gateway partners (demo only).
+    </div>
+
+    <form>
+        <div class="form-group">
+            <label>Institution Type</label>
+            <select required>
+                <option value="">Select</option>
+                <option>Bank</option>
+                <option>Fintech / Payment Gateway</option>
+                <option>NBFC</option>
+                <option>Other Regulated Entity</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Legal Name of Institution</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>Regulatory License No. / Registration ID</label>
+            <input type="text" placeholder="e.g., RBI licence, FSA Japan licence" required>
+            <label style="font-size:11px;color:#666;">Upload Licence / Approval Document</label>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+        </div>
+
+        <div class="form-group">
+            <label>Country of Regulation</label>
+            <select required>
+                <option value="">Select</option>
+                <option>India</option>
+                <option>Japan</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Supported Currencies</label>
+            <textarea placeholder="e.g., INR, JPY, USD, EUR" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>API / Integration Contact Email</label>
+            <input type="email" required>
+        </div>
+
+        <div class="form-group">
+            <label>Settlement Account Details for Escrow (Demo)</label>
+            <input type="text" placeholder="Account Number">
+            <input type="text" placeholder="IFSC / SWIFT">
+            <input type="text" placeholder="Bank & Branch Name">
+        </div>
+
+        <div class="form-group">
+            <label>Office Address</label>
+            <textarea required></textarea>
+        </div>
+
+        <button type="button" class="btn-primary">Submit Payment Partner Registration (Demo)</button>
+    </form>
+</div>
+</body>
+</html>
